@@ -1,16 +1,88 @@
-# React + Vite
+# 🛍️ ShopEase — Basic E-Commerce UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/Rahumansgit/Basic-Ecommerce)
+![GitHub stars](https://img.shields.io/github/stars/Rahumansgit/Basic-Ecommerce?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Rahumansgit/Basic-Ecommerce?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rahumansgit/Basic-Ecommerce)
 
-Currently, two official plugins are available:
+**ShopEase** is a **basic e-commerce website UI** built as a **frontend learning project**, with a primary focus on mastering **Tailwind CSS** and modern responsive layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Demo:** https://ar-shopease.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Purpose
 
-## Expanding the ESLint configuration
+This project was developed mainly to:
+- Learn and practice **Tailwind CSS utility-first styling**
+- Build clean, responsive layouts efficiently
+- Understand how e-commerce style UIs are structured on the frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ This project focuses on **UI & design only** and does **not** include cart functionality, backend logic, or user authentication.
+
+---
+
+## Preview
+
+**Home / Product Listing Page**  
+![ShopEase Home](img/home.png)
+
+---
+
+## Features & Highlights
+
+- **Responsive Design** — works smoothly on mobile, tablet, and desktop
+- **Product Listing UI** — clean product cards with pricing and visuals
+- **Tailwind-Driven Styling** — spacing, typography, grids, and layouts built entirely using Tailwind CSS
+- **Modern UI Layout** — minimal and user-friendly ecommerce interface
+- **Frontend-Only Project** — no cart, checkout, or backend integration
+
+---
+
+## Tech Stack
+
+- **React** — component-based UI development
+- **Tailwind CSS** — utility-first CSS framework (core learning focus)
+- **JavaScript (ES6+)**
+- **Vite** — fast development & build tool
+- **Vercel** — deployment platform
+
+---
+
+## Project Structure
+
+Basic-Ecommerce/
+
+├── public/ # Static assets
+
+├── src/ # React components & pages
+
+├── package.json # Dependencies & scripts
+
+├── vite.config.js # Vite configuration
+
+└── README.md # Documentation
+
+
+---
+
+## 🚀 Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Rahumansgit/Basic-Ecommerce.git
+   
+2. **Navigate to the project**
+   ```bash
+   cd Basic-Ecommerce
+
+
+3. **Install dependencies**
+   ```bash
+   npm install
+
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+
